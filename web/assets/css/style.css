@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Color Guinda Institucional de Jalisco */
+.text-jalisco {
+    color: #B0005D !important;
+}
+
+.btn-jalisco {
+    background-color: #B0005D;
+    border-color: #B0005D;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-jalisco:hover {
+    background-color: #8a0048;
+    border-color: #8a0048;
+}
+
+/* Estilo de los Inputs */
+.form-control, .form-select {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #B0005D;
+    box-shadow: 0 0 0 0.25rem rgba(176, 0, 93, 0.1);
+}
+
+.login-box {
+    max-width: 450px;
+}
+
+/* Para iconos dentro de los inputs si decides usarlos */
+.input-group-text {
+    border-right: none;
+    color: #6c757d;
+}
